@@ -1,46 +1,24 @@
-# Python DevOps Tools
+# Password Strength Checker
 
-This repository contains a collection of Python scripts for various DevOps tasks.
+A simple **Python script** that checks how strong your password is based on these rules:
 
-## Password Strength Checker
+- Minimum **8 characters**  
+- Contains **uppercase and lowercase** letters  
+- Includes at least **one number (0–9)**  
+- Has at least **one special character** (`!, @, #, $, %, ^, &, *`, etc.)
 
-A Python script that checks password strength based on the following criteria:
-- Minimum length of 8 characters
-- Contains both uppercase and lowercase letters
-- Contains at least one digit (0-9)
-- Contains at least one special character (!, @, #, $, %, etc.)
+---
 
-### Usage
+## How to Run
 
-```bash
+bash
 python password_strength_checker.py
-```
 
-Follow the prompts to enter passwords and check their strength. The script will provide detailed feedback on any failed requirements.
 
-## Development
-
-### Requirements
-- Python 3.x
-
-### Setup
-1. Clone the repository
-```bash
-git clone [repository-url]
-cd [repository-name]
-```
-
-2. (Optional) Create and activate a virtual environment
-```bash
-python -m venv venv
-source venv/bin/activate  # On Unix/macOS
-# or
-venv\Scripts\activate     # On Windows
-```
-
-## Contributing
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/your-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin feature/your-feature`)
-5. Create a new Pull Request
+Example
+Running the Script
+<p align="center"> <img width="668" height="144" alt="Run example" src="https://github.com/user-attachments/assets/489af365-6a1c-499d-bf86-796746ffb01c" /> </p>
+Expected Output
+<p align="center"> <img width="727" height="270" alt="Expected output" src="https://github.com/user-attachments/assets/83c2d47b-86de-4a7c-8b20-aa967e55d328" /> </p>
+User Input Example
+<p align="center"> <img width="682" height="271" alt="User input example" src="https://github.com/user-attachments/assets/a044bc6a-e562-4f40-8a7c-cb4bd98d17a0" /> </p>
